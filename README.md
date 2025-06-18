@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="librarydb_logo.png" alt="AlexandriaDB" height="160" />
+  <img src="librarydb_logo.png" alt="library_cover.jpeg" height="160" />
 </p>
 # 📚 AlexandriaDB - Library Management System Using SQL
 
