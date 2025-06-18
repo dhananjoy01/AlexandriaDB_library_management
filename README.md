@@ -9,7 +9,7 @@
 
 This project simulates a functional **library management system** built entirely using SQL. It covers core concepts of database design, normalization, foreign key relationships, procedural SQL, and query optimization for reporting. 
 
-![Library Architecture](ChatGPT%20Image%20Jun%2018,%202025,%2009_06_14%20AM.png)
+![Library Architecture](logo.png)
 
 ---
 
