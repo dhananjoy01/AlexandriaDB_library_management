@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="logo.png" alt="AlexandriaDB" width="160"/>
+</p>
 # 📚 AlexandriaDB - Library Management System Using SQL
 
 ## 📘 Project Overview
