@@ -39,7 +39,41 @@ Foreign key constraints ensure relational integrity. Salary column datatype was 
 
 ---
 
-![Library Architecture](erd.jpg)
+<p align="center">
+  <img src="structure.png" alt="AlexandriaDB" height="500" />
+</p>
+
+📚 Library Book Issue/Return Flowchart
+1. Start: Member
+→ Choose: Issue / Return
+
+2. If Return:
+➤ Update book status: 'from no to yes'
+
+➤ Ask for Book ID
+
+➤ Show message: "Thank you for returning the book."
+
+3. If Issue:
+➤ Ask for Book ID
+
+➤ Check if the book status is available:
+
+If No:
+
+Show message: "Sorry, this book is not available."
+
+If Yes:
+
+➤ Collect rental price
+
+➤ Issue the book
+
+➤ Update the status for the book: 'yes to no'
+
+➤ Make a new record in the issued table
+
+➤ Show message: "Thank you. Your book has been issued."
 
 ## 🔧 Core Functionalities
 
@@ -49,6 +83,10 @@ Foreign key constraints ensure relational integrity. Salary column datatype was 
 - Delete issued records  
 - Retrieve books issued by specific employees  
 - List members who issued more than one book
+
+<p align="center">
+  <img src="member.png" alt="AlexandriaDB" height="500" />
+</p>
 
 ### 📋 Sample Queries:
 
