@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="librarydb_logo.png" alt="AlexandriaDB" width="160" />
+  <img src="librarydb_logo.png" alt="AlexandriaDB" height="160" />
 </p>
 # 📚 AlexandriaDB - Library Management System Using SQL
 
@@ -11,7 +11,7 @@
 
 This project simulates a functional **library management system** built entirely using SQL. It covers core concepts of database design, normalization, foreign key relationships, procedural SQL, and query optimization for reporting. 
 
-![Library Architecture](logo.png)
+![Library Architecture](erd.jpg)
 
 ---
 
@@ -38,6 +38,8 @@ This project simulates a functional **library management system** built entirely
 Foreign key constraints ensure relational integrity. Salary column datatype was updated to FLOAT, and contact numbers were expanded for global compatibility.
 
 ---
+
+![Library Architecture](erd.jpg)
 
 ## 🔧 Core Functionalities
 
